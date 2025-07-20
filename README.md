@@ -24,4 +24,11 @@
 ---
 
 ## 🚀 Getting Started
+## ⚠️ Tailwind v4 Issue
+
+Originally tried Tailwind CSS v4, but faced version compatibility issues with PostCSS/Vite.  
+→ Downgraded to Tailwind CSS v3.4.1 for project stability.
+
+Next steps: Consider updating to v4 later once stable + plugin support improves.
+
 
