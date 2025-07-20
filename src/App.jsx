@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-teal-950 h-dvh mx-auto text-center py-10'>
+      <div className='bg-brand-500 h-dvh mx-auto text-center py-10'>
         <h1 className="text-teal-50 text-6xl">Hello Boilerplate</h1>
       </div>
     </>
