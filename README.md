@@ -25,10 +25,3 @@
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/healtea-app.git
-cd healtea-app
-
-
