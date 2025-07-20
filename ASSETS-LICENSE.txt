@@ -1,0 +1,15 @@
+Healtea Brand Assets License
+
+The Healtea name, logo, product mockups, packaging designs, and visual brand
+elements located in the /assets folder are provided for educational and
+portfolio demonstration purposes only.
+
+You may:
+- Use these assets in personal learning and demo projects.
+- Fork this repository for non-commercial study.
+
+You may NOT:
+- Resell the Healtea brand or assets as-is.
+- Use the Healtea branding in commercial products without permission.
+
+For commercial licensing or custom branding, contact: Me
