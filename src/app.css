@@ -1,60 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
-/* @theme {
-  /* Brand Color */
-  ----color-brand-50: #F3F7EE;
-  ----color-brand-100: #E5EED9;
-  ----color-brand-200: #CDDFB7;
-  ----color-brand-300: #A8C686;
-  ----color-brand-400: #8FB368;
-  ----color-brand-500: #71984A;
-  ----color-brand-600: #577838;
-  ----color-brand-700: #445D2E;
-  ----color-brand-800: #394B29;
-  ----color-brand-900: #324126;
-  ----color-brand-950: #182211;
 
-  /* Accent Color */
-  ----color-accent-50: #F6F5F0;
-  ----color-accent-100: #E9E4D8;
-  ----color-accent-200: #D5CAB3;
-  ----color-accent-300: #BCA988;
-  ----color-accent-400: #A98D66;
-  ----color-accent-500: #9A7C58;
-  ----color-accent-600: #84654A;
-  ----color-accent-700: #6B4F3E;
-  ----color-accent-800: #5B4438;
-  ----color-accent-900: #4F3B34;
-  ----color-accent-950: #2D1F1B;
-
-  /* Gray */
-  ----color-gray-50: #F7F7F6;
-  ----color-gray-100: #EDEEEA;
-  ----color-gray-200: #D9DCD6;
-  ----color-gray-300: #BBC0B5;
-  ----color-gray-400: #A3A99C;
-  ----color-gray-500: #747C6B;
-  ----color-gray-600: #5D6455;
-  ----color-gray-700: #4B5045;
-  ----color-gray-800: #3D4239;
-  ----color-gray-900: #333730;
-  ----color-gray-950: #1A1C17;
-
-  /* Yellow */
-  ----color-yellow-50: #FFFBEB;
-  ----color-yellow-100: #FFFBEB;
-  ----color-yellow-200: #FFF1C2;
-  ----color-yellow-300: #FFE8A3;
-  ----color-yellow-400: #E8B931;
-  ----color-yellow-500: #E5A000;
-  ----color-yellow-600: #BF6A02;
-  ----color-yellow-700: #975102;
-  ----color-yellow-800: #682D03;
-  ----color-yellow-900: #522504;
-  ----color-yellow-950: #401B01;  
-
-  /* Fonts */
-  ----font-family-sans: 'Raleway', sans-serif;
-  ----font-family-serif: 'Libre Baskerville', serif;
-} */
