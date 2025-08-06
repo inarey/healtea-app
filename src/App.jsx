@@ -1,5 +1,6 @@
 import Navbar from "./components/common/Navbar";
 import TopBanner from "./components/common/TopBanner";
+import HeroSection from "./components/sections/HeroSection";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <TopBanner />
       <Navbar />
       <container className="flex flex-row bg-brand-50 mx-auto"></container>
+      <HeroSection />
     </>
   );
 }
