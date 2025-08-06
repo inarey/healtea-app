@@ -1,18 +1,28 @@
-import React from 'react'
-import heroImage from '../../assets/images/healtea-heroimg.png'
+import React from "react";
+import heroImage from "../../assets/images/healtea-heroimg.png";
 
 const HeroSection = () => {
   return (
-    <section className='flex flex-col md:flex-row items-center bg-brand-100'>
+    <section className="h-screen flex flex-col md:flex-row items-center px-20 bg-brand-100">
       {/* left content */}
-      <div>
-        <h1>
+      <div className="w-full md:w-1/2 px-8">
+        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-6">
           Sip into wellness <br /> one cup at a time
         </h1>
+        <p className="text-lg text-gray-700 md-text-xl mb-8">
+          Discover premium Japanese teas crafted for balance, energy, and calm.
+        </p>
+        <button className="bg-accent-500 hover:bg-accent-700 text-gray-50 font-semibold px-6 py-3 rounded-lg transition-all duration-300 ">
+          Explore our Teas
+        </button>
       </div>
-      {/* right content */}
-    </section>
-  )
-}
 
-export default HeroSection
+      {/* right content */}
+      <div className="w-full md:w-1/2">
+      <img src={heroImage} alt="featured product" className="w-full h-full object-cover" />
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;

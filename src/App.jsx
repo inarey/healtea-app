@@ -7,8 +7,9 @@ function App() {
     <>
       <TopBanner />
       <Navbar />
-      <container className="flex flex-row bg-brand-50 mx-auto"></container>
+      <container className="flex flex-row bg-brand-50 mx-auto">
       <HeroSection />
+      </container>
     </>
   );
 }
