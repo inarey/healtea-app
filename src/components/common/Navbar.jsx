@@ -5,9 +5,7 @@ const Navbar = () => {
     <nav className="w-full bg-brand-200 text-gray-50 py-3 md:px-10 flex flex-col md:flex-row justify-between items-center">
       {/* Left: Logo + Nav Links */}
       <div className="flex flex-col px-16 md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 w-full md:w-auto">
-        <h1 className="text-2xl font-bold text-brand-950">
-          Heal<span className="text-brand-500">tea</span>
-        </h1>
+        <img  src="./assets/logos/healteaWhiteBg.png" alt="healtea logo" />
 
         <ul className="flex space-x-4 text-brand-900 font-medium text-sm md:text-base">
           <li>
