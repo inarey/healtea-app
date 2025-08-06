@@ -1,12 +1,12 @@
 import React from "react";
+import logo from "../../assets/logos/healteaWhiteBg.png"
 
 const Navbar = () => {
   return (
     <nav className="w-full bg-brand-200 text-gray-50 py-3 md:px-10 flex flex-col md:flex-row justify-between items-center">
       {/* Left: Logo + Nav Links */}
       <div className="flex flex-col px-16 md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 w-full md:w-auto">
-        <img  src="./assets/logos/healteaWhiteBg.png" alt="healtea logo" />
-
+      <img src={logo} alt="healtea logo"  className="h-8 w-auto"/>
         <ul className="flex space-x-4 text-brand-900 font-medium text-sm md:text-base">
           <li>
             <a href="#">Home</a>
