@@ -1,28 +1,31 @@
 import React from "react";
 import logo from "../../assets/logos/healteaWhiteBg.png"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="w-full bg-brand-200 text-gray-50 py-3 md:px-10 flex flex-col md:flex-row justify-between items-center">
       {/* Left: Logo + Nav Links */}
       <div className="flex flex-col px-16 md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 w-full md:w-auto">
+      <Link to="/" className="flex items-center space-x-2">
       <img src={logo} alt="healtea logo"  className="h-8 w-auto"/>
+      </Link>
         <ul className="flex space-x-4 text-brand-900 font-medium text-sm md:text-base">
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li className="relative group">
-            <a href="#">Shop ▾</a>
+            <Link to="/shop">Shop ▾</Link>
             {/* optional dropdown can go here */}
           </li>
           <li>
-            <a href="#">Blog</a>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to="/about">Contact</Link>
           </li>
         </ul>
       </div>
