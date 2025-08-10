@@ -1,31 +1,70 @@
 import React from "react";
-import logo from "../../assets/logos/healteaWhiteBg.png"
-import { Link } from "react-router-dom";
+import logo from "../../assets/logos/healteaWhiteBg.png";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="w-full bg-brand-200 text-gray-50 py-3 md:px-10 flex flex-col md:flex-row justify-between items-center">
       {/* Left: Logo + Nav Links */}
       <div className="flex flex-col px-16 md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 w-full md:w-auto">
-      <Link to="/" className="flex items-center space-x-2">
-      <img src={logo} alt="healtea logo"  className="h-8 w-auto"/>
-      </Link>
+        <Link to="/" className="flex items-center space-x-2">
+          <img src={logo} alt="healtea logo" className="h-8 w-auto" />
+        </Link>
         <ul className="flex space-x-4 text-brand-900 font-medium text-sm md:text-base">
           <li>
-            <Link to="/">Home</Link>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "underline font-semibold text-brand-700"
+                  : "hover:underline"
+              }
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive
+                  ? "underline font-semibold text-brand-700"
+                  : "hover:underline"
+              }
+            >
+              About
+            </NavLink>
           </li>
           <li className="relative group">
-            <Link to="/shop">Shop ▾</Link>
+            <NavLink
+              to="/shop"
+              className={({ isActive }) =>
+                isActive ? "underline font-semibold" : "hover:underline"
+              }
+            >
+              Shop ▾
+            </NavLink>
             {/* optional dropdown can go here */}
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <NavLink
+              to="/blog"
+              className={({ isActive }) =>
+                isActive ? "underline font-semibold" : "hover:underline"
+              }
+            >
+              Blog
+            </NavLink>
           </li>
           <li>
-            <Link to="/about">Contact</Link>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "underline font-semibold" : "hover:underline"
+              }
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>
