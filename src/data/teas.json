@@ -1,0 +1,145 @@
+
+
+[
+  {
+    "id": "assam-bold",
+    "name": "Assam Bold",
+    "category": "black",
+    "image": "/assets/images/teas/assamBold.png",
+    "price": 12.0
+  },
+  {
+    "id": "autumn-spice",
+    "name": "Autumn Spice",
+    "category": "black",
+    "image": "/assets/images/teas/autumnSpice.png",
+    "price": 13.5
+  },
+  {
+    "id": "cool-kukicha",
+    "name": "Cool Kukicha",
+    "category": "green",
+    "image": "/assets/images/teas/coolKukicha.png",
+    "price": 11.0
+  },
+  {
+    "id": "darjeeling-dawn",
+    "name": "Darjeeling Dawn",
+    "category": "black",
+    "image": "/assets/images/teas/darjeelingDawn.png",
+    "price": 14.0
+  },
+  {
+    "id": "earl-grey-charm",
+    "name": "Earl Grey Charm",
+    "category": "black",
+    "image": "/assets/images/teas/earlGreyCharm.png",
+    "price": 12.5
+  },
+  {
+    "id": "emerald-essence",
+    "name": "Emerald Essence",
+    "category": "green",
+    "image": "/assets/images/teas/emeraldEssence.png",
+    "price": 15.0
+  },
+  {
+    "id": "herbal-harmony",
+    "name": "Herbal Harmony",
+    "category": "herbal",
+    "image": "/assets/images/teas/herbalHarmony.png",
+    "price": 10.0
+  },
+  {
+    "id": "hojicha-bliss",
+    "name": "Hojicha Bliss",
+    "category": "hojicha",
+    "image": "/assets/images/teas/hojichaBliss.png",
+    "price": 12.0
+  },
+  {
+    "id": "hojicha-drift",
+    "name": "Hojicha Drift",
+    "category": "hojicha",
+    "image": "/assets/images/teas/hojichaDrift.png",
+    "price": 12.0
+  },
+  {
+    "id": "jade-leaf-serenity",
+    "name": "Jade Leaf Serenity",
+    "category": "green",
+    "image": "/assets/images/teas/jadeLeafSerenity.png",
+    "price": 16.0
+  },
+  {
+    "id": "lemon-brew",
+    "name": "Lemon Brew",
+    "category": "citrus",
+    "image": "/assets/images/teas/lemonBrew.png",
+    "price": 10.5
+  },
+  {
+    "id": "lemongrass-zen",
+    "name": "Lemongrass Zen",
+    "category": "herbal",
+    "image": "/assets/images/teas/lemongrassZen.png",
+    "price": 10.0
+  },
+  {
+    "id": "nutty-comfort",
+    "name": "Nutty Comfort",
+    "category": "green",
+    "image": "/assets/images/teas/nuttyComfort.png",
+    "price": 11.5
+  },
+  {
+    "id": "orange-sunrise",
+    "name": "Orange Sunrise",
+    "category": "citrus",
+    "image": "/assets/images/teas/orangeSunrise.png",
+    "price": 10.5
+  },
+  {
+    "id": "plum-limited",
+    "name": "Plum Limited",
+    "category": "seasonal",
+    "image": "/assets/images/teas/plumLimited.png",
+    "isLimited": true,
+    "price": 14.5
+  },
+  {
+    "id": "sencha-morning-breeze",
+    "name": "Sencha Morning Breeze",
+    "category": "green",
+    "image": "/assets/images/teas/senchaMorningBreeze.png",
+    "price": 12.5
+  },
+  {
+    "id": "shincha-sunrise",
+    "name": "Shincha Sunrise",
+    "category": "green",
+    "image": "/assets/images/teas/shinchaSunrise.png",
+    "price": 17.0
+  },
+  {
+    "id": "summer-crush",
+    "name": "Summer Crush",
+    "category": "seasonal",
+    "image": "/assets/images/teas/summerCrush.png",
+    "price": 11.5
+  },
+  {
+    "id": "tropical-citrus-harmony",
+    "name": "Tropical Citrus Harmony",
+    "category": "citrus",
+    "image": "/assets/images/teas/tropicalCitrusHarmony.png",
+    "price": 11.0
+  },
+  {
+    "id": "yuzu-citrus-glow",
+    "name": "Yuzu Citrus Glow",
+    "category": "citrus",
+    "image": "/assets/images/teas/yuzuCitrusGlow.png",
+    "price": 12.0
+  }
+]

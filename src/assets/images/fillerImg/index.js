@@ -3,7 +3,7 @@ import autumnSpice from './autumnSpice.png';
 import coolKukicha from './coolKukicha.png';
 import darjeelingDawn from './darjeelingDawn.png';
 import earlGreyCharm from './earlGreyCharm.png';
-import emeraldEssense from './emeraldEssense.png';
+import emeraldEssence from './emeraldEssence.png';
 import herbalHarmony from './herbalHarmony.png';
 import hojichaBliss from './hojichaBliss.png';
 import hojichaDrift from './hojichaDrift.png';
@@ -15,7 +15,7 @@ import orangeSunrise from './orangeSunrise.png';
 import plumLimited from './plumLimited.png';
 import senchaMorningBreeze from './senchaMorningBreeze.png';
 import shinchaSunrise from './shinchaSunrise.png';
-import summerCrash from './summerCrash.png';
+import summerCrush from './summerCrush.png';
 import tropicalCitrusHarmony from './tropicalCitrusHarmony.png';
 import yuzuCitrusGlow from './yuzuCitrusGlow.png';
 import healteaHeroImg from './healteaHeroImg.png';
@@ -26,7 +26,7 @@ export {
   coolKukicha,
   darjeelingDawn,
   earlGreyCharm,
-  emeraldEssense,
+  emeraldEssence,
   herbalHarmony,
   hojichaBliss,
   hojichaDrift,
@@ -38,7 +38,7 @@ export {
   plumLimited,
   senchaMorningBreeze,
   shinchaSunrise,
-  summerCrash,
+  summerCrush,
   tropicalCitrusHarmony,
   yuzuCitrusGlow, 
   healteaHeroImg
