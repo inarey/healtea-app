@@ -1,5 +1,6 @@
 import Navbar from "./components/common/Navbar";
 import TopBanner from "./components/common/TopBanner";
+import CuratedTeas from "./components/sections/curatedTeas/CuratedTeas";
 import HeroSection from "./components/sections/HeroSection";
 
 function App() {
@@ -7,8 +8,9 @@ function App() {
     <>
       <TopBanner />
       <Navbar />
-      <container className="flex flex-row bg-brand-50 mx-auto">
+      <container className="flex flex-col bg-brand-50 mx-auto">
       <HeroSection />
+      <CuratedTeas />
       </container>
     </>
   );

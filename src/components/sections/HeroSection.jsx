@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../../assets/images/healtea-heroimg.png";
+import { healteaHeroImg } from "../../assets/images/fillerImg";
 
 const HeroSection = () => {
   return (
@@ -22,7 +22,7 @@ const HeroSection = () => {
         {/* right content */}
         <div className="w-full md:w-1/2">
           <img
-            src={heroImage}
+            src={healteaHeroImg}
             alt="featured product"
             className="w-full h-full object-cover"
           />
