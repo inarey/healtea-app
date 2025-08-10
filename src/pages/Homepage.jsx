@@ -13,7 +13,7 @@ const Homepage = () => {
         <Navbar />
       </div>
 
-      <main className="flex flex-col bg-brand-50 mx-auto pt-28">
+      <main className="flex flex-col bg-brand-50 mx-auto pt-24">
         <HeroSection />
         <CuratedTeas />
       </main>
