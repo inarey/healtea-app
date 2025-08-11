@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logos/healteaWhiteBg.png";
 import { Link, NavLink } from "react-router-dom";
+import { RiHeart2Line, RiHeartFill,RiShoppingCart2Line } from "@remixicon/react";
 
 const Navbar = () => {
   return (
@@ -83,10 +84,12 @@ const Navbar = () => {
 
         {/* Icons */}
         <button className="hover:text-gray-600">
-          <i className="ri-heart-line"></i>
+          <RiHeart2Line
+            className="my-icon text-brand-500 size-7" // add custom class name
+          />
         </button>
         <button className="hover:text-gray-600">
-          <i className="ri-shopping-cart-line"></i>
+          <RiShoppingCart2Line className="my-icon text-brand-500 size-7" />
         </button>
 
         {/* Auth */}
