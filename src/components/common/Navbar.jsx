@@ -83,6 +83,7 @@ const Navbar = () => {
         </div>
 
         {/* Icons */}
+        <div className="flex items-center space-x-4">
         <button className="hover:text-gray-600">
           <RiHeart2Line
             className="my-icon text-brand-500 size-7" // add custom class name
@@ -100,6 +101,7 @@ const Navbar = () => {
           <i className="ri-user-line"></i>
           <span className="text-sm">Login/Register</span>
         </a>
+        </div>
       </div>
     </nav>
   );

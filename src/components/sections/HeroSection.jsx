@@ -4,7 +4,7 @@ import { healteaHeroImg } from "../../assets/images/fillerImg";
 const HeroSection = () => {
   return (
     <>
-      <section className="py-32 flex flex-col md:flex-row items-center px-20 bg-brand-100 ">
+      <section className="py-32 flex flex-col　 items-center px-20 bg-brand-100 ">
         {/* left content */}
         <div className="w-full md:w-1/2 px-8">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-6">
