@@ -2,10 +2,11 @@ import React from "react";
 import logo from "../../assets/logos/healteaWhiteBg.png";
 import { Link, NavLink } from "react-router-dom";
 import { RiHeart2Line, RiHeartFill,RiShoppingCart2Line } from "@remixicon/react";
+import ThemeToggle from "../ThemeToggle";
 
 const Navbar = () => {
   return (
-    <nav className="w-full bg-brand-200 text-gray-50 py-3 md:px-10 flex flex-col md:flex-row justify-between items-center">
+    <nav className="w-full bg-brand-200 text-gray-50 py-3 md:px-10 flex flex-col md:flex-row justify-between items-center ">
       {/* Left: Logo + Nav Links */}
       <div className="flex flex-col px-16 md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 w-full md:w-auto">
         <Link to="/" className="flex items-center space-x-2">
@@ -84,6 +85,7 @@ const Navbar = () => {
 
         {/* Icons */}
         <div className="flex items-center space-x-4">
+          <ThemeToggle />
         <button className="hover:text-gray-600">
           <RiHeart2Line
             className="my-icon text-brand-500 size-7" // add custom class name

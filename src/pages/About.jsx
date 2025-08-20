@@ -1,12 +1,15 @@
 import React from "react";
 import TopBanner from "../components/common/TopBanner";
 import Navbar from "../components/common/Navbar";
+import { ThemeProvider } from "../theme/ThemeContext";
 
 const About = () => {
   return (
     <>
-      <TopBanner />
-      <Navbar />
+      <ThemeProvider>
+        <TopBanner />
+        <Navbar />
+      </ThemeProvider>
     </>
   );
 };
