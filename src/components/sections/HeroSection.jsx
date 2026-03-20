@@ -10,7 +10,7 @@ const HeroSection = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-gray-200 leading-tight mb-6">
             Sip into wellness <br /> one cup at a time
           </h1>
-          <p className="w-96 text-lg text-gray-700 dark:text-gray-200 md-text-xl mb-8">
+          <p className="w-96 text-md text-gray-700 dark:text-gray-200 md-text-xl mb-8">
             Discover premium Japanese teas crafted for balance, energy, and
             calm.
           </p>
